@@ -1,0 +1,26 @@
+{
+  "pcs": [
+    {
+      "name": "Gaming PC - 3080 Ti & i9-10850K",
+      "price": 1200,
+      "description": "—Beautiful, Massive Gaming PC-Ask about trade-in!—\n\nPerforms great and will run anything with ease (smoke-free).\n\nSpecs:\n• GPU: NVIDIA GeForce RTX 3080 Ti EVGA\n• CPU: Intel Core i9-10850K\n• Motherboard: ASUS ROG Strix Z490-E WiFi\n• RAM: 32GB Corsair Dominator @ 360MT/s\n• Storage: 2TB Total (1TB SSD + 1TB HDD)\n• PSU: 750 Watt RM750x\n• Cooler: Corsair 280mm AIO\n• Case: Corsair 5000X RGB\n• Extras: 10 RGB fans, CableMod kit",
+      "images": [
+        "https://imgur.com/dbbbKuh.png",
+        "https://imgur.com/h526UcM.png",
+        "https://imgur.com/QaU0L71.png",
+        "https://imgur.com/91rLvZB.png",
+        "https://imgur.com/ofk1Zfj.png"
+      ],
+      "video": "https://www.youtube.com/embed/mGZ_OBv_KUM"
+    }
+  ],
+  "peripherals": [
+    {
+      "name": "Gaming Mouse Pro",
+      "price": 50,
+      "description": "High precision gaming mouse with customizable buttons and RGB lighting.",
+      "images": ["https://via.placeholder.com/300x200.png?text=Gaming+Mouse"],
+      "video": ""
+    }
+  ]
+}
