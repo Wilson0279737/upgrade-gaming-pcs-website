@@ -13,7 +13,7 @@
   <header>
     <div class="container header-container">
       <div class="logo">
-        <a href="#hero"><img src="https://i.imgur.com/9INHmq9.png" alt="Upgrade Gaming PCs Logo"></a>
+        <a href="#hero"><img src="https://i.imgur.com/9INHmq9.png" alt="Upgrade Gaming PCs Logo" loading="lazy"></a>
       </div>
       <nav>
         <ul class="nav-list">
@@ -39,7 +39,7 @@
     <div class="overlay"></div>
     <div class="section-content hero-content">
       <div class="hero-logo">
-        <img src="https://i.imgur.com/9INHmq9.png" alt="Upgrade Gaming PCs Logo">
+        <img src="https://i.imgur.com/9INHmq9.png" alt="Upgrade Gaming PCs Logo" loading="lazy">
       </div>
       <h1>Upgrade Your Gaming Experience</h1>
       <p>Discover high-performance refurbished gaming PCs, quality peripherals, and honest local repair services.</p>
@@ -67,6 +67,12 @@
         </div>
       </div>
       <div id="peripherals" class="tab-content">
+        <div class="peripherals-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="mice">Mice</button>
+          <button class="filter-btn" data-filter="keyboards">Keyboards</button>
+          <button class="filter-btn" data-filter="monitors">Monitors</button>
+        </div>
         <div class="product-grid" id="peripherals-grid">
           <!-- Peripheral previews loaded dynamically -->
         </div>
@@ -82,7 +88,7 @@
       <h2>Computer Repair Services</h2>
       <p>Expert repairs with a no fix, no pay guarantee. We’re a small, local business you can trust.</p>
       <div class="service-details">
-        <img src="https://i.imgur.com/wIg1KBa.png" alt="Repair Service">
+        <img src="https://i.imgur.com/wIg1KBa.png" alt="Repair Service" loading="lazy">
         <div class="service-info">
           <h3>Expert Repair &amp; Trade-In</h3>
           <p>From troubleshooting to complete system overhauls, I ensure reliable repairs. I also offer trade-in options so you can upgrade affordably.</p>
@@ -100,36 +106,36 @@
       <h2>What Our Customers Say</h2>
       <div class="review-grid">
         <div class="review">
-          <img src="https://i.imgur.com/K7ZYpjL.png" alt="Review 1">
+          <img src="https://i.imgur.com/K7ZYpjL.png" alt="Review 1" loading="lazy">
         </div>
         <div class="review">
-          <img src="https://i.imgur.com/V35znPG.png" alt="Review 2">
+          <img src="https://i.imgur.com/V35znPG.png" alt="Review 2" loading="lazy">
         </div>
         <div class="review">
-          <img src="https://i.imgur.com/rXHkdxI.png" alt="Review 3">
+          <img src="https://i.imgur.com/rXHkdxI.png" alt="Review 3" loading="lazy">
         </div>
         <div class="review">
-          <img src="https://i.imgur.com/nUmB3qm.png" alt="Review 4">
+          <img src="https://i.imgur.com/nUmB3qm.png" alt="Review 4" loading="lazy">
         </div>
       </div>
       <a href="https://www.google.com/maps/place/Upgrade+Gaming+PCs/@43.149624,-83.4109825,15z/data=!4m14!1m5!8m4!1e1!2s102258352946469059046!3m1!1e1!3m7!1s0x88246f304b3af7fb:0xae6166c538ca04ed!8m2!3d43.1555933!4d-83.4191727!9m1!1b1!16s%2Fg%2F11lw8tygg_?entry=ttu&g_ep=EgoyMDI1MDIxMC4wIKXMDSoASAFQAw%3D%3D" class="btn">Leave a Review</a>
     </div>
   </section>
 
-<!-- About Section -->
-<section id="about" class="about-section section-with-overlay">
-  <div class="bg-image" style="background-image: url('https://i.imgur.com/0Qv0NV6.png');"></div>
-  <div class="overlay"></div>
-  <div class="container section-content">
-    <h2>About Upgrade Gaming PCs</h2>
-    <div class="about-content">
-      <img src="https://i.imgur.com/hyIoSJ5.png" alt="Our Team">
-      <div class="about-text">
-        <p>We’re a small, local, and honest business in Columbiaville, MI. Specializing in refurbished gaming PCs, quality peripherals, and reliable computer repair – my commitment to customer satisfaction sets me apart.</p>
+  <!-- About Section -->
+  <section id="about" class="about-section section-with-overlay">
+    <div class="bg-image" style="background-image: url('https://i.imgur.com/0Qv0NV6.png');"></div>
+    <div class="overlay"></div>
+    <div class="container section-content">
+      <h2>About Upgrade Gaming PCs</h2>
+      <div class="about-content">
+        <img src="https://i.imgur.com/hyIoSJ5.png" alt="Our Team" loading="lazy">
+        <div class="about-text">
+          <p>We’re a small, local, and honest business in Columbiaville, MI. Specializing in refurbished gaming PCs, quality peripherals, and reliable computer repair – my commitment to customer satisfaction sets me apart.</p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <!-- Contact Section -->
   <section id="contact" class="contact-section section-with-overlay">
@@ -167,7 +173,8 @@
       <button class="modal-close" aria-label="Close">&times;</button>
       <div class="modal-media">
         <div class="modal-carousel"></div>
-        <iframe class="modal-video" allowfullscreen></iframe>
+        <!-- Using a native video element with controls and lazy loading -->
+        <video class="modal-video" controls loading="lazy"></video>
         <div class="modal-description"></div>
       </div>
     </div>
