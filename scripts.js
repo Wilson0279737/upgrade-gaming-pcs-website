@@ -271,11 +271,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     modalInfo.appendChild(callBtn);
     
-    // Create Email Us button with delayed modal close to allow mailto to trigger on PC
+    // Create Email Us button redirecting to Gmail compose
     const emailBtn = document.createElement('a');
     emailBtn.className = 'btn contact-btn';
     emailBtn.textContent = 'Email Us';
-    emailBtn.href = 'mailto:brandonwilson0279737@gmail.com';
+    emailBtn.href = 'https://mail.google.com/mail/?view=cm&fs=1&to=brandonwilson0279737@gmail.com';
     emailBtn.addEventListener('click', (e) => {
       e.stopPropagation();
       setTimeout(closeModal, 200);
