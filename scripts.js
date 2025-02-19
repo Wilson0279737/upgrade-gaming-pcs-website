@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // Helper function to determine the appropriate email link
+  function getEmailHref() {
+    return window.innerWidth <= 768 
+      ? 'mailto:brandonwilson0279737@gmail.com' 
+      : 'https://mail.google.com/mail/?view=cm&fs=1&to=brandonwilson0279737@gmail.com';
+  }
+
   /* Mobile Navigation Toggle */
   const navToggle = document.querySelector('.nav-toggle');
   const navList = document.querySelector('.nav-list');
@@ -271,11 +278,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     modalInfo.appendChild(callBtn);
     
-    // Create Email Us button redirecting to Gmail compose
+    // Create Email Us button using the dynamic email link
     const emailBtn = document.createElement('a');
     emailBtn.className = 'btn contact-btn';
     emailBtn.textContent = 'Email Us';
-    emailBtn.href = 'https://mail.google.com/mail/?view=cm&fs=1&to=brandonwilson0279737@gmail.com';
+    emailBtn.href = getEmailHref();
     emailBtn.addEventListener('click', (e) => {
       e.stopPropagation();
       setTimeout(closeModal, 200);
@@ -331,5 +338,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       }
     });
+  });
+
+  // Update all static email buttons with the appropriate href
+  document.querySelectorAll('.email-link').forEach(link => {
+    link.href = getEmailHref();
   });
 });
