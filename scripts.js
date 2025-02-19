@@ -142,6 +142,15 @@ document.addEventListener('DOMContentLoaded', () => {
         images: ['https://i5.walmartimages.com/asr/a20115c3-639a-4d55-8f37-fba6917207f1.3d54b20e3e3ea13d6a7742d6b9dcf338.jpeg'],
         video: ''
       },
+      // New Keyboard: Redragon Ashe Pro K626 RGB Pro
+      {
+        name: 'Redragon Ashe Pro K626 RGB Pro',
+        category: 'keyboards',
+        price: 20,
+        description: 'The Redragon Ashe Pro K626 RGB Pro is a compact 78-key mechanical keyboard featuring tactile blue switches for a balanced typing experience. It comes with hot-swappable keys, durable double-shot keycaps, and a sleek metal panel design for enhanced durability and style. Enjoy full n-key rollover and a detachable Type-C wired connection, making it ideal for both gaming and professional use.',
+        images: ['https://microless.com/cdn/products/ccc40ec9d6dbafb30c97c888ae8e63dd-hi.jpg'],
+        video: ''
+      },
       // Monitors
       {
         name: 'XF273U X',
@@ -242,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
     modalCarousel.innerHTML = '';
     modalDescription.textContent = product.description;
     
-    // Append price and a "Contact Us" button after the description
+    // Append price and "Call Now" and "Email Us" buttons after the description
     const modalInfo = document.createElement('div');
     modalInfo.className = 'modal-info';
     
@@ -251,15 +260,27 @@ document.addEventListener('DOMContentLoaded', () => {
     priceEl.textContent = `Price: $${product.price}`;
     modalInfo.appendChild(priceEl);
     
-    const contactBtn = document.createElement('button');
-    contactBtn.className = 'btn contact-btn';
-    contactBtn.textContent = 'Contact Us';
-    contactBtn.addEventListener('click', (e) => {
+    // Create Call Now button
+    const callBtn = document.createElement('a');
+    callBtn.className = 'btn contact-btn';
+    callBtn.textContent = 'Call Now';
+    callBtn.href = 'tel:8104413020';
+    callBtn.addEventListener('click', (e) => {
       e.stopPropagation();
-      closeModal(); // Close the modal first
-      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+      closeModal();
     });
-    modalInfo.appendChild(contactBtn);
+    modalInfo.appendChild(callBtn);
+    
+    // Create Email Us button with delayed modal close to allow mailto to trigger on PC
+    const emailBtn = document.createElement('a');
+    emailBtn.className = 'btn contact-btn';
+    emailBtn.textContent = 'Email Us';
+    emailBtn.href = 'mailto:brandonwilson0279737@gmail.com';
+    emailBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      setTimeout(closeModal, 200);
+    });
+    modalInfo.appendChild(emailBtn);
     
     // Append modalInfo to the same parent as modalDescription
     modalDescription.parentElement.appendChild(modalInfo);
