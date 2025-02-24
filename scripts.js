@@ -38,26 +38,100 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  /* Updated PRODUCTS DATA SECTION with revised peripheral descriptions */
-  const productsData = {
-    pcs: [
-      {
-        name: 'Gaming PC HardLine 6950XT & Ryzen 9 5950X',
-        price: 1850,
-        description: "--MID-MICHIGAN DELIVERY--\n\n—Beautiful, Shiny HardLine Acrylic Water Cooled Gaming PC - ask abt trade-in!—\n\nBrand-New Coolant—& perfect for streaming/multitasking!\n\nPerforms great, and will run anything with ease! (Smoke-free)\n\nInquire about gaming mice, keyboards, and monitors and with any questions at all! :)\n\nAll of my PCs are rigorously tested and tweaked for maximum performance and reliability. Get a great deal and support a local small business 😁\n\nGod Bless,\n\n—SPECS—\n\n💪GPU: Radeon RX 6950 XT\n\n🧠CPU: AMD Ryzen 9 5950X 16-core processor\n\n🛜Motherboard: X570 Aorus Master (WiFi)\n\n📝RAM: 32GB DDR4 cl-16\n\n💾Storage: 2TB Gen4 M.2 WD_Black NVMe SSD\n\n^^ add 2TB Game HDD = $30 ^^\n\n⚡️PSU: EVGA 850w\n\n🌊Cooling: Corsair XC7 CPU block & D5 pump/reservoir combo - Acrylic Tubing - Metal Fittings - 360mm radiator\n\n💼Case: Lian Li Dynamic EVO RGB\n\n🎁Misc: 6 case fans, vertical GPU mount, Windows 11 home installed, Corsair thermal paste, WiFi booster if needed :)",
-        images: [
-          "https://imgur.com/HuVhcE3.png",
-          "https://imgur.com/xjNcuD8.png",
-          "https://imgur.com/7MgeZVF.png",
-          "https://imgur.com/h85FSIn.png",
-          "https://imgur.com/shY5KxD.png",
-          "https://imgur.com/bK2YyWG.png",
-          "https://imgur.com/ax4Q69N.png",
-          "https://imgur.com/aQx2Xli.png"
-        ],
-        video: "https://i.imgur.com/o9fgSkw.mp4"
-      }
-    ],
+  /* Updated PRODUCTS DATA SECTION with revised peripheral and PC details */
+ const productsData = {
+  pcs: [
+    {
+      name: 'Gaming PC HardLine 6950XT & Ryzen 9 5950X',
+      price: 1850,
+      description: `--MID-MICHIGAN DELIVERY--
+
+—Beautiful, Shiny HardLine Acrylic Water Cooled Gaming PC - ask abt trade-in!—
+
+Brand-New Coolant—& perfect for streaming/multitasking!
+
+Performs great, and will run anything with ease! (Smoke-free)
+
+Inquire about gaming mice, keyboards, and monitors and with any questions at all! :)
+
+All of my PCs are rigorously tested and tweaked for maximum performance and reliability. Get a great deal and support a local small business 😁
+
+God Bless,
+
+—SPECS—
+
+💪GPU: Radeon RX 6950 XT
+
+🧠CPU: AMD Ryzen 9 5950X 16-core processor
+
+🛜Motherboard: X570 Aorus Master (WiFi)
+
+📝RAM: 32GB DDR4 cl-16
+
+💾Storage: 2TB Gen4 M.2 WD_Black NVMe SSD
+
+^^ add 2TB Game HDD = $30 ^^
+
+⚡️PSU: EVGA 850w
+
+🌊Cooling: Corsair XC7 CPU block & D5 pump/reservoir combo - Acrylic Tubing - Metal Fittings - 360mm radiator
+
+💼Case: Lian Li Dynamic EVO RGB
+
+🎁Misc: 6 case fans, vertical GPU mount, Windows 11 home installed, Corsair thermal paste, WiFi booster if needed :)`,
+      images: [
+        "https://imgur.com/HuVhcE3.png",
+        "https://imgur.com/xjNcuD8.png",
+        "https://imgur.com/7MgeZVF.png",
+        "https://imgur.com/h85FSIn.png",
+        "https://imgur.com/shY5KxD.png",
+        "https://imgur.com/bK2YyWG.png",
+        "https://imgur.com/ax4Q69N.png",
+        "https://imgur.com/aQx2Xli.png"
+      ],
+      video: "https://i.imgur.com/o9fgSkw.mp4"
+    },
+    {
+      name: 'Gaming PC i7-10700KF & 8GB RX 580',
+      price: 550,
+      description: `—Beautiful, Shiny Gaming PC - ask abt trade-in!—
+
+Performs great, and will run anything with ease! (Smoke-free)
+
+Inquire about gaming mice, keyboards, and monitors and with any questions at all! :)
+
+All of my PCs are rigorously tested and tweaked for maximum performance and reliability. Get a great deal and support a local small business 😁
+
+God Bless,
+
+—SPECS—
+
+💪GPU: 8GB Radeon Red Devil RX 580
+
+🧠CPU: Intel Core i7-10700KF
+
+📝RAM: 16GB DDR4 Corsair Vengeance
+
+💾Storage: 256GB SATA SSD
+
+^^ add 2TB Game HDD = $30 ^^
+
+🌊Cooling: Legion Air Cooler
+
+💼Case: Cooler Master RGB case
+
+🎁Misc: New thermal paste, aRGB case fans, 6 month warranty!`,
+      images: [
+        "https://imgur.com/wPdznbV.png",
+        "https://imgur.com/eEbD09R.png",
+        "https://imgur.com/ouOzuwB.png",
+        "https://imgur.com/1nL90ov.png",
+        "https://imgur.com/50oxuqQ.png",
+        "https://imgur.com/mYhTClh.png"
+      ],
+video: "https://i.imgur.com/OEjUi4U.mp4"
+    }
+  ],
     peripherals: [
       // Mice
       {
@@ -84,14 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
         images: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXxaT6hSkiYVOKA8Ph2K4W5v9mFL7-0tHTXQ&s'],
         video: ''
       },
-      {
-        name: 'iBUYPOWER Chimera M7 RGB',
-        category: 'mice',
-        price: 15,
-        description: 'Wired gaming mouse with a high-precision optical sensor (up to 3200 DPI), customizable RGB lighting, and an ergonomic design for competitive performance.',
-        images: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROz6m1pBGTtr2AYskkCKyxssOQMnUTp02ZQQ&s'],
-        video: ''
-      },
+      // Removed: iBUYPOWER Chimera M7 RGB
       {
         name: 'Logitech M705',
         category: 'mice',
@@ -106,6 +173,14 @@ document.addEventListener('DOMContentLoaded', () => {
         price: 10,
         description: 'Wired gaming mouse featuring a 1200 DPI optical sensor, lightweight construction, and a distinctive pink camo finish for style on a budget.',
         images: ['https://i.ebayimg.com/images/g/C4AAAOSwWXVj5FQe/s-l400.jpg'],
+        video: ''
+      },
+      {
+        name: 'Logitech G903 Lightspeed Mouse',
+        category: 'mice',
+        price: 90,
+        description: 'High-performance wireless gaming mouse with advanced sensor and customizable RGB lighting, designed for competitive gaming.',
+        images: ['https://i.rtings.com/assets/products/k0yzRxSz/logitech-g903-lightspeed/design-large.jpg?format=auto'],
         video: ''
       },
       // Keyboards
@@ -149,7 +224,6 @@ document.addEventListener('DOMContentLoaded', () => {
         images: ['https://i5.walmartimages.com/asr/a20115c3-639a-4d55-8f37-fba6917207f1.3d54b20e3e3ea13d6a7742d6b9dcf338.jpeg'],
         video: ''
       },
-      // New Keyboard: Redragon Ashe Pro K626 RGB Pro
       {
         name: 'Redragon Ashe Pro K626 RGB Pro',
         category: 'keyboards',
@@ -173,14 +247,6 @@ document.addEventListener('DOMContentLoaded', () => {
         price: 475,
         description: '27-inch OLED gaming monitor offering 2560x1440 resolution, 240Hz refresh rate, and 1ms response time, delivering excellent color accuracy and performance.',
         images: ['https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/7c0ede6c-d409-45fe-a79f-7145c930684e/Monitor_27GS95QE-B_gallery_04_5804x4354'],
-        video: ''
-      },
-      {
-        name: 'Acer XB273 GXBMIIPRZX',
-        category: 'monitors',
-        price: 175,
-        description: '27-inch IPS gaming monitor featuring 2560x1440 resolution, 144Hz refresh rate, and 1ms response time for a balanced gaming experience.',
-        images: ['https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/7689020/7689020_o01_092221/7689020'],
         video: ''
       },
       {
@@ -258,7 +324,7 @@ document.addEventListener('DOMContentLoaded', () => {
     modalCarousel.innerHTML = '';
     modalDescription.textContent = product.description;
     
-    // Append price and "Call Now" and "Email Us" buttons after the description
+    // Append price and contact buttons
     const modalInfo = document.createElement('div');
     modalInfo.className = 'modal-info';
     
@@ -267,7 +333,6 @@ document.addEventListener('DOMContentLoaded', () => {
     priceEl.textContent = `Price: $${product.price}`;
     modalInfo.appendChild(priceEl);
     
-    // Create Call Now button
     const callBtn = document.createElement('a');
     callBtn.className = 'btn contact-btn';
     callBtn.textContent = 'Call Now';
@@ -278,7 +343,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     modalInfo.appendChild(callBtn);
     
-    // Create Email Us button using the dynamic email link
     const emailBtn = document.createElement('a');
     emailBtn.className = 'btn contact-btn';
     emailBtn.textContent = 'Email Us';
@@ -289,10 +353,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     modalInfo.appendChild(emailBtn);
     
-    // Append modalInfo to the same parent as modalDescription
     modalDescription.parentElement.appendChild(modalInfo);
 
-    if (product.video) {
+    // Video logic: if the video field starts with an embed code, insert it; otherwise, use the video element.
+    if (product.video && product.video.trim().startsWith('<')) {
+      modalVideo.style.display = 'none';
+      let embedContainer = document.createElement('div');
+      embedContainer.className = 'modal-video-embed';
+      embedContainer.innerHTML = product.video;
+      modalCarousel.appendChild(embedContainer);
+    } else if (product.video) {
       modalVideo.style.display = 'block';
       modalVideo.src = product.video;
       modalVideo.load();
@@ -300,6 +370,8 @@ document.addEventListener('DOMContentLoaded', () => {
       modalVideo.style.display = 'none';
       modalVideo.src = '';
     }
+    
+    // Append all images to the modal carousel
     product.images.forEach(src => {
       const img = document.createElement('img');
       img.src = src;
@@ -316,9 +388,10 @@ document.addEventListener('DOMContentLoaded', () => {
     modalVideo.src = '';
     modalVideo.style.display = 'none';
     modalDescription.textContent = '';
-    // Remove modalInfo if it exists
     const modalInfo = document.querySelector('.modal-info');
     if (modalInfo) modalInfo.remove();
+    const embedContainer = document.querySelector('.modal-video-embed');
+    if (embedContainer) embedContainer.remove();
   }
 
   modalCloseBtn.addEventListener('click', closeModal);
@@ -340,7 +413,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Update all static email buttons with the appropriate href
+  // Update static email links
   document.querySelectorAll('.email-link').forEach(link => {
     link.href = getEmailHref();
   });
