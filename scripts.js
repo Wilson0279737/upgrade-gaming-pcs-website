@@ -91,46 +91,33 @@ God Bless,
       ],
       video: "https://i.imgur.com/o9fgSkw.mp4"
     },
-    {
-      name: 'Gaming PC i7-10700KF & 8GB RX 580',
-      price: 550,
-      description: `—Beautiful, Shiny Gaming PC - ask abt trade-in!—
-
-Performs great, and will run anything with ease! (Smoke-free)
+{
+  name: 'Gaming PC 6500XT & 10105F',
+  price: 450,
+  description: `—Beautiful, Shiny Gaming PC - ask abt trade-in!—
 
 Inquire about gaming mice, keyboards, and monitors and with any questions at all! :)
 
 All of my PCs are rigorously tested and tweaked for maximum performance and reliability. Get a great deal and support a local small business 😁
 
-God Bless,
-
 —SPECS—
-
-💪GPU: 8GB Radeon Red Devil RX 580
-
-🧠CPU: Intel Core i7-10700KF
-
-📝RAM: 16GB DDR4 Corsair Vengeance
-
-💾Storage: 256GB SATA SSD
-
+💪GPU: XFX 24XT AKA 6500XT
+🧠CPU: i3 10105F
+🛜Motherboard: ASRock B560M-C
+📝RAM: 16GB DDR4 @ 3600MHz cl18
+💾Storage: 512GB NVMe SSD ADATA SWORDFISH
 ^^ add 2TB Game HDD = $30 ^^
-
-🌊Cooling: Legion Air Cooler
-
-💼Case: Cooler Master RGB case
-
-🎁Misc: New thermal paste, aRGB case fans, 6 month warranty!`,
-      images: [
-        "https://imgur.com/wPdznbV.png",
-        "https://imgur.com/eEbD09R.png",
-        "https://imgur.com/ouOzuwB.png",
-        "https://imgur.com/1nL90ov.png",
-        "https://imgur.com/50oxuqQ.png",
-        "https://imgur.com/mYhTClh.png"
-      ],
-video: "https://i.imgur.com/OEjUi4U.mp4"
-    }
+💼Case: Ibuypower glass RGB case
+🎁Misc: Windows 11 home installed, & WiFi booster if needed :)`,
+  images: [
+    "https://imgur.com/FyzIQdQ.jpg",
+    "https://imgur.com/AUVj5ok.jpg",
+    "https://imgur.com/n1Bix0x.jpg",
+    "https://imgur.com/VcaM1ns.jpg",
+    "https://imgur.com/H1IhRIh.jpg"
+  ],
+  video: ""
+}
   ],
     peripherals: [
       // Mice
