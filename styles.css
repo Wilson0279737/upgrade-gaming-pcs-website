@@ -559,3 +559,7 @@ footer {
     transform: translateZ(0);
   }
 }
+
+.modal-description {
+  white-space: pre-line;
+}
