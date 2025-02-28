@@ -59,25 +59,15 @@ All of my PCs are rigorously tested and tweaked for maximum performance and reli
 God Bless,
 
 —SPECS—
-
 💪GPU: Radeon RX 6950 XT
-
 🧠CPU: AMD Ryzen 9 5950X 16-core processor
-
 🛜Motherboard: X570 Aorus Master (WiFi)
-
 📝RAM: 32GB DDR4 cl-16
-
 💾Storage: 2TB Gen4 M.2 WD_Black NVMe SSD
-
 ^^ add 2TB Game HDD = $30 ^^
-
 ⚡️PSU: EVGA 850w
-
 🌊Cooling: Corsair XC7 CPU block & D5 pump/reservoir combo - Acrylic Tubing - Metal Fittings - 360mm radiator
-
 💼Case: Lian Li Dynamic EVO RGB
-
 🎁Misc: 6 case fans, vertical GPU mount, Windows 11 home installed, Corsair thermal paste, WiFi booster if needed :)`,
       images: [
         "https://imgur.com/HuVhcE3.png",
