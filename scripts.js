@@ -127,29 +127,12 @@ All of my PCs are rigorously tested and tweaked for maximum performance and reli
         images: ['https://m.media-amazon.com/images/I/51PyuzFECNL.jpg'],
         video: ''
       },
-      {
-        name: 'Skytech M-1000',
+                 {
+        name: 'Razer DeathAdder Essential',
         category: 'mice',
         price: 10,
-        description: 'Used gaming mouse featuring an optical sensor with adjustable DPI up to 1600 and an ergonomic design, ideal for entry-level gaming.',
-        images: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXxaT6hSkiYVOKA8Ph2K4W5v9mFL7-0tHTXQ&s'],
-        video: ''
-      },
-      // Removed: iBUYPOWER Chimera M7 RGB
-      {
-        name: 'Logitech M705',
-        category: 'mice',
-        price: 25,
-        description: 'Wireless mouse with an optical sensor (up to 1600 DPI) and ultra-long battery life (up to 3 years), designed for comfort and reliability.',
-        images: ['https://m.media-amazon.com/images/I/71i8hHdMUlL.jpg'],
-        video: ''
-      },
-      {
-        name: 'Onn Camo (Pink)',
-        category: 'mice',
-        price: 10,
-        description: 'Wired gaming mouse featuring a 1200 DPI optical sensor, lightweight construction, and a distinctive pink camo finish for style on a budget.',
-        images: ['https://i.ebayimg.com/images/g/C4AAAOSwWXVj5FQe/s-l400.jpg'],
+        description: 'Essential gaming mouse with 6,400 DPI optical sensor',
+        images: ['https://assets3.razerzone.com/9NAIe5Ijdo7WnYAnQXeNpwHmWK4=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fha9%2Fhe6%2F9234225496094%2Fdeathadder-essential-2021-black-1500x1000-3.jpg'],
         video: ''
       },
       {
@@ -186,11 +169,11 @@ All of my PCs are rigorously tested and tweaked for maximum performance and reli
         video: ''
       },
       {
-        name: 'MSI GK300',
+        name: 'YAWYORE 87-Key Mechanical Keyboard',
         category: 'keyboards',
         price: 20,
-        description: 'Budget-friendly gaming keyboard with membrane keys, anti-ghosting functionality, and a minimalist, spill-resistant build.',
-        images: ['https://storage-asset.msi.com/global/picture/image/feature/Gaming-Gear/keyboards/gk300/msi-gk300-keyboard-kv-mobile.png'],
+        description: '87-Key Mechanical Keyboard with Dazzling RGB Backlight, Compatible with Windows and Mac Computers. Perfect for Gaming (Black/Purple)',
+        images: ['https://m.media-amazon.com/images/I/71TvxV18d6L.jpg'],
         video: ''
       },
       {
@@ -222,7 +205,7 @@ All of my PCs are rigorously tested and tweaked for maximum performance and reli
         name: 'LG ULTRAGEAR+ 27GR95QE-B',
         category: 'monitors',
         price: 475,
-        description: '27-inch OLED gaming monitor offering 2560x1440 resolution, 240Hz refresh rate, and 1ms response time, delivering excellent color accuracy and performance.',
+        description: '27" UltraGear™ OLED Gaming Monitor QHD with 240Hz Refresh Rate 0.03ms Response Time',
         images: ['https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/7c0ede6c-d409-45fe-a79f-7145c930684e/Monitor_27GS95QE-B_gallery_04_5804x4354'],
         video: ''
       },
