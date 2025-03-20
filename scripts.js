@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
   pcs: [
     {
       name: 'Gaming PC HardLine 6950XT & Ryzen 9 5950X',
-      price: 1850,
+      price: 1650,
       description: `--MID-MICHIGAN DELIVERY--
 
 —Beautiful, Shiny HardLine Acrylic Water Cooled Gaming PC - ask abt trade-in!—
@@ -81,33 +81,6 @@ God Bless,
       ],
       video: "https://i.imgur.com/o9fgSkw.mp4"
     },
-{
-  name: 'Gaming PC 6500XT & 10105F',
-  price: 450,
-  description: `—Beautiful, Shiny Gaming PC - ask abt trade-in!—
-
-Inquire about gaming mice, keyboards, and monitors and with any questions at all! :)
-
-All of my PCs are rigorously tested and tweaked for maximum performance and reliability. Get a great deal and support a local small business 😁
-
-—SPECS—
-💪GPU: XFX 24XT AKA 6500XT
-🧠CPU: i3 10105F
-🛜Motherboard: ASRock B560M-C
-📝RAM: 16GB DDR4 @ 3600MHz cl18
-💾Storage: 512GB NVMe SSD ADATA SWORDFISH
-^^ add 2TB Game HDD = $30 ^^
-💼Case: Ibuypower glass RGB case
-🎁Misc: Windows 11 home installed, & WiFi booster if needed :)`,
-  images: [
-    "https://imgur.com/FyzIQdQ.jpg",
-    "https://imgur.com/AUVj5ok.jpg",
-    "https://imgur.com/n1Bix0x.jpg",
-    "https://imgur.com/VcaM1ns.jpg",
-    "https://imgur.com/H1IhRIh.jpg"
-  ],
-  video: ""
-}
   ],
     peripherals: [
       // Mice
@@ -161,6 +134,22 @@ All of my PCs are rigorously tested and tweaked for maximum performance and reli
         video: ''
       },
       {
+        name: 'Glorious GMMK White Ice Edition - Compact',
+        category: 'keyboards',
+        price: 40,
+        description: 'The Glorious GMMK is a fully modular mechanical gaming keyboard that comes pre-installed with Gateron Brown switches and a complete toolkit (including key and switch removers, extra caps, and stickers), supports hot-swapping for nearly any Cherry MX or Kailh switch, offers fully customizable RGB lighting and macros via optional software, and provides fast, precise performance for both serious gaming and everyday typing.',
+        images: ['https://m.media-amazon.com/images/I/61VhxW-reiS._AC_SX466_.jpg'],
+        video: ''
+      },
+      {
+        name: 'HyperX Alloy Core RGB - Gaming Keyboard',
+        category: 'keyboards',
+        price: 20,
+        description: 'RGB Backlighting. Quiet, responsive keys.',
+        images: ['https://hyperx.com/cdn/shop/files/hyperx_alloy_core_rgb_us_1_main_720x.jpg?v=1688318411.jpg'],
+        video: ''
+      },
+      {
         name: 'Logitech YU0039',
         category: 'keyboards',
         price: 50,
@@ -194,15 +183,15 @@ All of my PCs are rigorously tested and tweaked for maximum performance and reli
       },
       // Monitors
       {
-        name: 'XF273U X',
+        name: 'ACER 27" 240Hz 1440p',
         category: 'monitors',
         price: 200,
-        description: '27-inch IPS gaming monitor with 1920x1080 resolution, 240Hz refresh rate, and 1ms response time for smooth, immersive gameplay.',
+        description: '27-inch IPS gaming monitor with 1920x1440p resolution, 240Hz refresh rate, and 1ms response time for smooth, immersive gameplay.',
         images: ['https://m.media-amazon.com/images/I/61oLUBtT8sL.jpg'],
         video: ''
       },
       {
-        name: 'LG ULTRAGEAR+ 27GR95QE-B',
+        name: 'LG 27" 240Hz 1440p OLED',
         category: 'monitors',
         price: 475,
         description: '27" UltraGear™ OLED Gaming Monitor QHD with 240Hz Refresh Rate 0.03ms Response Time',
@@ -210,7 +199,15 @@ All of my PCs are rigorously tested and tweaked for maximum performance and reli
         video: ''
       },
       {
-        name: 'DELL AW2518HF',
+        name: 'Samsung 27" 72Hz 1080p',
+        category: 'monitors',
+        price: 100,
+        description: 'Immerse yourself in rich, panoramic visuals on the 27" Full HD Samsung C27F396FHU Curved Monitor, featuring AMD FreeSync for smooth gameplay, Eye Saver Mode for comfortable viewing, and a sleek black design that complements any setup.',
+        images: ['https://m.media-amazon.com/images/I/61baA6enRAL._AC_SX466_.jpg'],
+        video: ''
+      },
+      {
+        name: 'AW 25" 240Hz 1080p',
         category: 'monitors',
         price: 175,
         description: '24.5-inch TN gaming monitor with 1920x1080 resolution, 240Hz refresh rate, and 1ms response time, optimized for competitive gaming.',
