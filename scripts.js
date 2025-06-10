@@ -1,10 +1,17 @@
+// Helper function to determine the appropriate email link.
+// Width defaults to the current window width when running in the browser.
+function getEmailHref(width = (typeof window !== 'undefined' ? window.innerWidth : 0)) {
+  return width <= 768
+    ? 'mailto:brandonwilson0279737@gmail.com'
+    : 'https://mail.google.com/mail/?view=cm&fs=1&to=brandonwilson0279737@gmail.com';
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { getEmailHref };
+}
+
+if (typeof document !== 'undefined') {
 document.addEventListener('DOMContentLoaded', () => {
-  // Helper function to determine the appropriate email link
-  function getEmailHref() {
-    return window.innerWidth <= 768 
-      ? 'mailto:brandonwilson0279737@gmail.com' 
-      : 'https://mail.google.com/mail/?view=cm&fs=1&to=brandonwilson0279737@gmail.com';
-  }
 
   /* Mobile Navigation Toggle */
   const navToggle = document.querySelector('.nav-toggle');
@@ -52,7 +59,7 @@ Brand-New Coolant—& perfect for streaming/multitasking!
 
 Performs great, and will run anything with ease! (Smoke-free)
 
-Inquire about gaming mice, keyboards, and monitors and with any questions at all! :)
+Inquire about gaming mice, keyboards, and monitors—ask any questions at all! :)
 
 All of my PCs are rigorously tested and tweaked for maximum performance and reliability. Get a great deal and support a local small business 😁
 
@@ -374,4 +381,11 @@ God Bless,
   document.querySelectorAll('.email-link').forEach(link => {
     link.href = getEmailHref();
   });
+
+  window.addEventListener('resize', () => {
+    document.querySelectorAll('.email-link').forEach(link => {
+      link.href = getEmailHref();
+    });
+  });
 });
+}
